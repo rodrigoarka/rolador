@@ -1,0 +1,27 @@
+.form-signin {
+/*max-width: 330px;*/
+/*padding: 15px;*/
+/*margin: 0 auto;*/
+}
+
+.form-signin .input1{
+margin-bottom: -1px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+
+.form-signin .input2{
+margin-top: -1px;
+border-top-right-radius: 0;
+border-top-left-radius: 0;
+margin-bottom: -1px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.form-signin .input3{
+margin-top: -1px;
+border-top-right-radius: 0;
+border-top-left-radius: 0;
+}
