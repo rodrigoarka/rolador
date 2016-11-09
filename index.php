@@ -46,8 +46,8 @@
 			<div class="col-sm-12">
 				<?php 
 				$servername = "localhost";
-				$dbname = "rodrigoa_principal";
-				$username = "rodrigoa_rodrigo";
+				$dbname = "rolador";
+				$username = "root";
 				$password = "2615948";
 
 				// // Create connection
