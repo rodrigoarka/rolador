@@ -98,13 +98,7 @@
 
 
 
-					if ($sucesso > 0):
-						$status = "success";
-					elseif($sucesso == 0):
-						$status = "warning";
-					elseif($sucesso < 0):
-						$status = "danger";
-					endif; 
+	
 
 
 				    	if ($_POST['fv'] == true) {
@@ -134,6 +128,14 @@
 						 	$usaFv = '<strong>(com gasto de força de vontade</strong>)';
 						 }
 				      //  echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+
+					if ($row["sucessos"] > 0):
+						$status = "success";
+					elseif($row["sucessos"] == 0):
+						$status = "warning";
+					elseif($row["sucessos"] < 0):
+						$status = "danger";
+					endif; 
 				?>
 
 				<div class="alert alert-<?php echo @$status; ?>"  role="alert">
