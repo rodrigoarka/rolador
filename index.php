@@ -136,7 +136,7 @@
 				      //  echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
 				?>
 
-				<div class="alert alert-<?php echo $row["status"]; ?>"  role="alert">
+				<div class="alert alert-<?php echo @$status; ?>"  role="alert">
 				<strong><?php echo $row["nome"]; ?> rolou <?php echo $row["numero"]; ?> dados:</strong> <?php echo $row["descricao"]; ?> - Você teve uma rolagem com <strong><?php echo $row["sucessos"]; ?></strong> sucessos,  dificuldade <strong><?php echo $row["dif"]; ?></strong>. <strong>Motivo:</strong> <?php echo $row["motivo"]; ?> <?php echo $usaFv; ?>
 				</div>
 				<?php
