@@ -100,7 +100,7 @@
 
 					if ($sucesso > 0):
 						$status = "success";
-					else if($sucesso == 0):
+					elseif($sucesso == 0):
 						$status = "warning";
 					else
 						$status = "danger";
