@@ -102,7 +102,7 @@
 						$status = "success";
 					else if($sucesso == 0):
 						$status = "warning";
-					else 
+					else
 						$status = "danger";
 					endif; 
 
