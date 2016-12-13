@@ -48,7 +48,7 @@
 				$servername = "localhost";
 				$dbname = "rolador";
 				$username = "root";
-				$password = "2615948";
+				$password = "";
 
 				// // Create connection
 				$conn = new mysqli($servername, $username, $password, $dbname);
